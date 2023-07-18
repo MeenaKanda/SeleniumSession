@@ -21,6 +21,7 @@ public class WebTablePagination {
 			 // //why using FEs not FE?
 			//if the element not identified on the first page itself FE throw nosuchelementException , and FEs return 0 (empty list).so use FEs.
 			
+			
 			//ele is on the first page itself
 			if(driver.findElements(By.xpath("//td[text()='United States']")).size()>0) {  
 				selectCountry("United States");

@@ -47,6 +47,8 @@ public class TestNG {
 		//assert means -> hard assertion
 		//verify means -> soft assertion
 		
+		//there is no assertion in selenium. only in testng
+		
 		//Map is a non-order base collection.
 		//hashmap doesn't maintain order.if you want to maintain same order you enter you have to maintain linked HashMap.
 		//treemap is a kind of map maintain on the basis of sorting keys not the value.
@@ -61,17 +63,25 @@ public class TestNG {
 		
 		//Listener -> listen each and every test activity during the execution of test cases.
 		//and listener generate nice report.
-		//type of listener: ExtentReport Listener ,
+		//type of listener: ExtentReport Listener , Allure report listener
 		//Allure report also generate own report. look and feel of data of both allure and extent report different but result will be same
-        //it is bad practice if you add so many listener in the xml file. all giving same results, only look and feel different.
+        //it is bad practice if you add so many listener in the pom.xml file. all giving same results, only look and feel different.
 		//more listener you add it will slow down the execution speed.
 		
-	    //Allure report is web server report and server reports are always flexible and light weight
+		//Allure- reports coming in the form of jason file.
+	    //Allure report is web server report so we have to start allure server for the report. and server reports are always flexible and light weight and easy to integrate wiht jenkin
 		//server report we can do many configuration
 		//and we can easily integrate with jenkin later on and you can server with anyone when needed
 		//even if you run 5000 test cases allure report never give you wrong results.but extend report may
 		
 		//listener is a java file so create under src/main/java
+		
+		//ExtentReportListerner implements ITestListener
+		//ITestListener extends ITesnNgListener
+		
+		//TestAllureListerner implements ITestListener
+		//ITestListener extends ITesnNgListener
+		
 		
 		//who is responsible for screenshot? => selenium responsible.not tesng and extend report
 		//extend report says where exactly your screenshot available and take screenshot from there and attach it to the file.
@@ -83,6 +93,12 @@ public class TestNG {
 		
 	    //Testng listener implement to have retry logic.
 		//Retry logic means -> if the test got failed , retry the same test again
+		//we can try retry logic with the help of TestNg Listener.
+		
+		//Which Interface responsible for retry Logic?
+		//IAnnotatinTransformer is responsible.it has only one method transform()
+		//IRetryAnalyser is also responsible for retry logic
+		
 	
 		//Retry logic is added in the form of listener
 	    //Retry logic --> testng report in console retry test taken as a skipped one

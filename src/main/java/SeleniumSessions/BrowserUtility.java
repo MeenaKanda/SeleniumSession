@@ -91,14 +91,14 @@ public class BrowserUtility {
 	}
 	
 	
-	public void closeBrowser() {   //
+	public void closeBrowser() {   //wrap on top of selenium method
 		if(driver != null) {
 			driver.close();
 		}
 	}
 	
 	public void quitBrowser() {    //wrapper function  //user call the wrapper method which internally use selenium method
-		if(driver != null) {
+		if(driver != null) {       //if driver == null , driver.quit(); give nullPointerException
 			driver.quit();      //internally using selenium mehtod
 		}
 	}

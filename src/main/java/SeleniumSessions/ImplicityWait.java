@@ -69,6 +69,7 @@ public class ImplicityWait {
 	    //2.also imp wait applied for all the eles on the page.it impact the performance of application.
 	    //so never use imp wait in frame work at all.
 	    //3. imp wait only for web element : svg, iframe, webelement
+	    //imp wait not applicable for shadow dom. shadow dom we use java script not driver.findElement
 	    //4. imp wait doesn't support non web element : title, url, alerts-js
 	}
 
@@ -82,3 +83,12 @@ public class ImplicityWait {
 
 //driver.findElement(By.id("input-email111")).sendKeys("meena123@gmail.com"); //NoSuchElementException  
 //if you give wrong locator it will wait for 10 seconds and raise this exception/
+
+
+//what happen sel 3x to 4x with respect to wait?
+//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);  //sel 3.x//depricated implicitywait 
+//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //sel 4.x
+
+//cypress and play write => have auto wait
+
+

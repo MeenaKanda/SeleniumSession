@@ -12,7 +12,8 @@ public class StaleElementRefExceptionWithFEs {
 	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.freshworks.com/");
+//		driver.get("https://www.freshworks.com/");
+		driver.get("https://www.freshworks.com/security/");
 		
 		List<WebElement> linksList = driver.findElements(By.xpath("(//ul[@class='footer-nav'])[1]//a"));  //v1
 		

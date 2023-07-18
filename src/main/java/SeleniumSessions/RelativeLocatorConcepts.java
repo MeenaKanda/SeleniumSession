@@ -19,7 +19,7 @@ public class RelativeLocatorConcepts {
 //		
 //	        
 //		        below
-//	
+//	 
 // from the base element(.) we have to go left right above below or near by element.
 		// nearest ele -> it create 100 pixel of boundary. within the boundary it capture
 		

@@ -39,7 +39,8 @@ public class SVGElement {
 	    		int y = e.getSize().getHeight();
 	    		System.out.println(x + " : " + y);
 	    		
-	    		act.moveToElement(e, (3*x)/4 , 0).click().build().perform();
+//	    		act.moveToElement(e, (3*x)/4 , 0).click().build().perform();
+	    		act.moveToElement(e, (x/2)-40 , 0).click().build().perform();
 	    		
 	    		
 	//    		e.click();
@@ -53,7 +54,7 @@ public class SVGElement {
 //SVG--> normal xpath will not support
 // for svg element we have to use local-name() for parent and after that use name() only in xpath
 
-//how to find svg elements on the page?
+//how to find tottal no of svg elements on the page?
 //ans: //*[local-name()='svg']   --> local name only for svg not for other element
 
 

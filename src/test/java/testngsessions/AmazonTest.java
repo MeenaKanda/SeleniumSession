@@ -22,7 +22,9 @@ public class AmazonTest extends BaseTest{
 	// we can not write more than one test case inside method. if particular test case/Assertion get failed, it terminate the Test and marked as failed
     //Not valid format . we should not write all test cases together.if any of test case getting failed it terminate the remaining and whole Test got failed.
 	//we should not create any dependency between test cases. should write test cases separately
-/*	@Test
+
+	
+	/*	@Test
 	public void amazonPageTest() {
 		System.out.println("checking title ......");
 		String title = driver.getTitle();
@@ -39,7 +41,7 @@ public class AmazonTest extends BaseTest{
 		
 	}*/
 	
-	
+	//each test case should have assertion
 	//Test cases should be independent. so every test cases get opportunity to get executed whether test case pass or fail.
 	//@Test will be executed in an alphabetical order.
 	

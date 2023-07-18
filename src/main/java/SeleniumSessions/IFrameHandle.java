@@ -14,7 +14,10 @@ public class IFrameHandle {
 		driver.get("https://www.formsite.com/templates/registration-form-templates/vehicle-registration-form/");
         Thread.sleep(3000);
 		
-        driver.findElement(By.xpath("//img[@title='vehicle-registration-forms-and-templates']")).click();   //clicking image on the page, after click it take to new frame
+  //      driver.findElement(By.xpath("//img[@title='vehicle-registration-forms-and-templates']")).click();   //clicking image on the page, after click it take to new frame
+        //iframe is loaded after clicking the image. 
+        driver.findElement(By.xpath("//img[@alt='Vehicle Registration Form']")).click();
+        
         Thread.sleep(3000);
  //       driver.findElement(By.xpath("//input[@id='RESULT_TextField-4']")).sendKeys("2345 abcd");  //NoSuchElementException: no such element  
         // have to switch to frame first

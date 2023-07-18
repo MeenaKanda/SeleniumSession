@@ -10,6 +10,7 @@ public class MoveToElementConcepts {
 	
 	//we have to move over to parent menu it shows child menu(which is hidden/not able to see unless mouse over so we can't interact directly.we have to use Actions Class) down
     // hidden elements -> not visible on the page. using Actions class make them visible first 
+	//How to handle hidden elements?
 	
 	public static void main(String[] args) throws InterruptedException {
 		

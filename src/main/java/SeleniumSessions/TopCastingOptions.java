@@ -27,10 +27,10 @@ public class TopCastingOptions {
 //		RemoteWebDriver driver = new ChromeDriver();
 		
 		 
-		//5.WD = new RWD  - valid top casting - recommended - used for remote execution
+		//5.WD = new RWD  - valid top casting - recommended -GRID- used for remote execution
 //		WebDriver driver = new RemoteWebDriver();  //The constructor RemoteWebDriver() is not visible
 //		WebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
-		//remote execution -> if you want to run test cases on the cloud/on the server/some other machine/on AWS
+		//remote execution -> if you want to run test cases on the cloud/on the server/remote machine/some other machine/on AWS
 		//in that case we have to give IP Address(remoteaddress), and capability(which browser version you want to use on that machine)
 		
 	
@@ -46,8 +46,8 @@ public class TopCastingOptions {
     //for local execution we prefer
     //WebDriver driver = new ChromeDriver();
 
-    //for local execution we prefer
+    //for remote execution we prefer
     //WebDriver driver = new RemoteWebDriver(remoteAddress, capabilities);
 
-    //ChromiumDriver top casting we don't use.
+    //ChromiumDriver top casting we don't use.Chromium driver only for chrome and edge. so we don't use for topcasting.
 

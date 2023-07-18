@@ -28,5 +28,5 @@ public class TestDependency {
 //when we add dependency , it will not consider alphabetical order.
 
 //test cases should be independent.so never create dependency between test cases.
-//when adding dependency --> running in a sequencial order is fine. but running test cases (in parallel mode 
+//when adding dependency --> running in a sequencial order is fine. but running test cases in parallel mode 
 //with dependency is a disaster. thread -> t1 t2 t3

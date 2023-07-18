@@ -26,7 +26,7 @@ WebDriver driver;
     	    else if(browserName.equalsIgnoreCase("safari")){
     	    	driver = new SafariDriver();
     	    }
-    	    if(browserName.equalsIgnoreCase("firefox")){
+    	    else if(browserName.equalsIgnoreCase("firefox")){
     	    	driver = new FirefoxDriver();
     	    }
     	    else {

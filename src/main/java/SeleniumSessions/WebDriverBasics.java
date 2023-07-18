@@ -56,7 +56,7 @@ public class WebDriverBasics {
 		//2. enter url:
 //		driver.get("http://www.google.com");  //correct //http is a protocol
 //		driver.get("www.google.com");  //org.openqa.selenium.InvalidArgumentException
-		driver.get("http://google.com");   //correct  //return void
+		driver.get("https://google.com");   //correct  //return void
 
 		
 		//3. get the title:
@@ -84,3 +84,6 @@ public class WebDriverBasics {
 	}
 
 }
+
+//We use assertion in testNg
+//Maven is for => build the automation.

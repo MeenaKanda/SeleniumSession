@@ -20,7 +20,7 @@ public class StaleElementRefExceptionConcept {
 		
 //		Thread.sleep(5000);
 		
-		fn = driver.findElement(By.id("input-email")); //v2 //webele Id2 //create new web element so staleException don't come.
+//		fn = driver.findElement(By.id("input-email")); //v2 //webele Id2 //create new web element so staleException don't come.
 		
  		fn.sendKeys("kanda123@gmail.com");  //fn=v1 //webId1 //StaleElementReferenceException
 		//fn is previous version(v1) but latest version is v2. that why when so sendkeys action on fn it give staleException.

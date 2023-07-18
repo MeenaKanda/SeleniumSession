@@ -19,7 +19,7 @@ public class DropDownWithouSelect {
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial");
 
 		By country = By.id("Form_getForm_Country");
-		By options = By.xpath("//select[@name='Country']/option");
+		By options = By.xpath("//select[@name='Country']/option");  //we can use xpath to select get all dropdown option instead of using Select Class.
 		
 //		List<WebElement> optionsList =driver.findElements(country);   //we can't use this.count of the optionsList =1. 
  /*		List<WebElement> optionsList = driver.findElements(options);

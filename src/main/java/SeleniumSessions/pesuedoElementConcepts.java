@@ -9,6 +9,8 @@ public class pesuedoElementConcepts {
 	
 	//  ::before or ::after -> it is called pesudo class  -> we can't do copy xpath/css for :: before ::after
 //we have to create java script to fetch the value of ::before
+	//browser understand only java script
+	//selenium can not interact with pesudo class.
 	// we are going to execute java script using  selenium java code
 	//selenium can not give every method how application working. so we create java script for that and execute with the help of selenium with java,
 	//selenium with python, selenium with ruby
@@ -22,7 +24,7 @@ public class pesuedoElementConcepts {
 		
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
 		//convert driver into java script executer:
-/*		JavascriptExecutor js = (JavascriptExecutor)(driver); // ->casting driver into JavaScriptExecutor
+/*		JavascriptExecutor js = (JavascriptExecutor)driver; // ->casting driver into JavaScriptExecutor
 		
 		// window.getComputedStyle(document.querySelector("label[for='input-firstname']"),'::before').getPropertyValue('content')
 		//we can not use xpath here. querySelecor so we have to use css selector

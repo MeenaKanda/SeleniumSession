@@ -43,3 +43,9 @@ public class WebDriverWatiWithElements {
 	}
 	
 }
+
+
+// visibilityOfAllElementsLocatedBy ==> An expectation for checking that all elements present on the web page that match the locatorare visible. 
+//Visibility means that the elements are not only displayed but also have a heightand width that is greater than 0.
+
+// presenceOfAllElementsLocatedBy ==> An expectation for checking that there is at least one element present on a web page.

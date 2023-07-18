@@ -31,6 +31,7 @@ public class DisableTextFieldButtonEnterValue {
 		System.out.println(disabelText);  //true
 		
 		submit_btn.click();  //org.openqa.selenium.ElementClickInterceptedException
+		//in some app it wont give any exception
 		
 		
 		

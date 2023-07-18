@@ -24,7 +24,7 @@ public class AutonticationPopUpHandle {
 		String username = "admin";
 		String password = "admin";
 		
-//		driver.get("https://"+username+":"+username+"@"+"the-internet.herokuapp.com/basic_auth");
+    	driver.get("https://"+username+":"+username+"@"+"the-internet.herokuapp.com/basic_auth");
 		
 		
 	}

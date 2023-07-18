@@ -154,7 +154,7 @@ public class CustomCSSSelector {
 		
 		
 		//not in css:
-		// :not() -> add when you want to exclude inside ().
+		// :not() -> add what you want to exclude inside ().
 		//https://app.hubspot.com/login
 		//class=form-control private-form__control login-email
 		//class=form-control private-form__control login-password m-bottom-3

@@ -34,7 +34,7 @@ public class CRUDOperationTest {
 	
 	@Test
 	public void getUserTest() {   // instead of using dependency create like this. this is the right way
-		createUser();  //post call 
+		createUser();  //post call  //here create userId
 		getUser(123);     // get call  // here we update userId and this is the right way
 		
 	}
@@ -73,3 +73,4 @@ public class CRUDOperationTest {
 
 
 //test cases are always independent in automation.
+//don't create dependencies between two test cases. if one test case got failed other test case also will be failed.

@@ -26,7 +26,9 @@ public class ScrollIntoViewConcept {
 		//2.Actions class click -- move to element -- click on middle of the element
 		//3.js click  -- click from DOM
 		
-		//if normal click and actions click not working , in that case go with js click
+		//user always work on the UI only.
+		//if normal click and actions click not working , in that case go with js click.
+		
 
 	//    WebElement registry = driver.findElement(By.linkText("Registry"));
 	//    jsUtil.clickElementByJS(registry);

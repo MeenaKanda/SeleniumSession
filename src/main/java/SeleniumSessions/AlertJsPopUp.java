@@ -1,4 +1,4 @@
-package SeleniumSessions;
+ package SeleniumSessions;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ public class AlertJsPopUp {
 
 	public static void main(String[] args) throws InterruptedException {
 		//Java Script has 3 kind of pop up box
-		//Java Script alert - 3 types ->alert, confirm, prompt
+		//Java Script alert - 3 types ->alert, confirm, prompt - these alert come because of java script written by the developer
 		//authontication pop up
 		//browser window pop up/advertisement pop up
 		//file upload pop up
@@ -28,7 +28,7 @@ public class AlertJsPopUp {
 		System.out.println(text);
 		
 //		alert.accept();   // click on ok button
-		alert.dismiss();  //cancel the alert  //use escape in keyboard
+		alert.dismiss();  //cancel the alert  //use escape in keyboard //cancel the alert
 		*/
 		
 		//confirm:
@@ -40,7 +40,7 @@ public class AlertJsPopUp {
 		System.out.println(text);
 	
 //		alert.accept();   //click on ok
-		alert.dismiss();  //click on cancel
+		alert.dismiss();  //click on cancel 
 		*/
 		
 		//prompt:
@@ -56,6 +56,15 @@ public class AlertJsPopUp {
 		Thread.sleep(3000);
 		alert.accept();   //click on ok
 //		alert.dismiss();  //click on cancel 
+		
+
+		
+		
+		
+		
+		
+//		driver.switchTo().alert().accept();  //don't write like this everytime switch to alert and do 
+//		driver.switchTo().alert().dismiss();
 		
 		
 	}

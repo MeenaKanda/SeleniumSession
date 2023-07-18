@@ -39,4 +39,4 @@ public class SliderAction {
 
 
 //Scrolling -> both horizontal and vertical scrolling is not an webelement.
-//so this one don't work for scrolling ,only work for slider.
+//so this one don't work for scrolling ,only work for slider(which is webelement).

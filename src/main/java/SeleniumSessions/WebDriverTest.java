@@ -7,7 +7,9 @@ public class WebDriverTest {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kanda\\Downloads\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kanda\\Downloads\\chromedriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kanda\\Downloads\\chromedriver_win32.exe");
 		
 		WebDriver driver = new ChromeDriver();   //when use selenium version 4.5.3
         //when you use <4.6 version you get this error
@@ -38,10 +40,10 @@ public class WebDriverTest {
 	
 	    //before every time we have to check the browser version and .exe file. now we don't need to worry about that.selenium automatically do that work from 4.6.0 
 	
-		//109 chrome --> win/mac/linux -- exe 109
-		//109 chrome --> win/mac/linux -- exe 108 -->109
-		//110 chrome --> win/mac/linux -- exe 109 -->110
-		//115 chrome --> win/mac/linux -- exe 110 -->115
+		//109 chrome --> win/mac/linux -- .exe 109
+		//109 chrome --> win/mac/linux -- .exe 108 -->109
+		//110 chrome --> win/mac/linux -- .exe 109 -->110
+		//115 chrome --> win/mac/linux -- .exe 110 -->115
 		
 		//every software is backward compatable also. so we can see all the older version also in site.
 		//it up to you which version want to use (newer or older version)

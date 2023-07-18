@@ -43,4 +43,7 @@ public class ShadowDomConcept {
 //we have to look the dom for checking the shadow dom.
 //shadow root(open) - selenium able to automate. 
 //shadow root(close) - can not automate by any tool , ask developer make it open to automate
+
+//use case of shadow dom:
+//date security, element security
 //In banking application, financial application they put some important thing inside shadow dom.

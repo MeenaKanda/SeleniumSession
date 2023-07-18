@@ -22,8 +22,9 @@ public class FrameHandle {
 		*/
 		
 //		driver.switchTo().frame(2);  //passing index  //not prefer
-//		driver.switchTo().frame("main");
-		driver.switchTo().frame(driver.findElement(By.xpath("//frame[@src='top.html']")));
+//		driver.switchTo().frame("main");  //passing name or id //name="main"
+		driver.switchTo().frame(driver.findElement(By.xpath("//frame[@src='top.html']"))); //passing WebElement
+
 		
 		
 		String header = driver.findElement(By.tagName("h2")).getText();
@@ -59,6 +60,6 @@ public class FrameHandle {
 //2. iframe
 
 // why developer create a frame or iframe?
-// ans: for security of the web element . banking application. they kept everything in the small iframe
+// ans: for security of the web element . banking application. they kept everything in the small iframe(usename, password)
 
 

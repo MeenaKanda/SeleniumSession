@@ -31,17 +31,31 @@ public class ExplictWaitConcept {
 	    waitForElementPresence(emailId, 10).sendKeys("testing@gmail.com");
 	    getElement(password).sendKeys("test@123");
 	    getElement(loginBtn).click();
+	    
+	    
 	
 	}
     
-    
-   
-    
+    /**
+     * An expectation for checking that an element is present on the DOM of a page. 
+     * This does not necessarily mean that the element is visible
+     * @param locator
+     * @param timeOut
+     * @return
+     */
     
     public static WebElement waitForElementPresence(By locator, int timeOut) {
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));  // sele 4.x
 	    return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
+    
+    /**
+     * An expectation for checking that an element is present on the DOM of a page and visible.
+     * Visibility means that the element is not only displayed but also has a height and width that is greater than 0.
+     * @param locator
+     * @param timeOut
+     * @return
+     */
     
     public static WebElement waitForElementVisible(By locator, int timeOut) {
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));  // sele 4.x
@@ -53,10 +67,12 @@ public class ExplictWaitConcept {
 	}
 	
 	
+	
+	
 }
 
 //WEbDriverWait --> is a class and have 3 constructor
-//Duration --> is a class. timeout with the help of duration class
+//Duration --> is a class. timeout with the help of Duration class
 //untill method coming from fluent class
 //until()-> coming from wait I and overridden by fluent class and inherited in Webdriverwait class
 
@@ -71,3 +87,6 @@ public class ExplictWaitConcept {
 //visibilityOfElementLocated check element inside dom and also page. 
 
 //from both we prefer visibility of element
+
+//difference b/w presenceOfElementLocated and VisibilityOfElementLocated
+

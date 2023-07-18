@@ -23,7 +23,7 @@ public class JavaScriptExecutorConcept {
 		
 //		JavascriptExecutor js = (JavascriptExecutor)driver;  //convert driver
 //		
-//		String title = js.executeScript("return document.title;").toString();
+//		String title = js.executeScript("return document.title;").toString();  //convert js string to string
 //		System.out.println(title);
 //		
 //		js.executeScript("alert('hi this is alert');");
@@ -112,5 +112,5 @@ public class JavaScriptExecutorConcept {
 //java script is common for all the browsers like chrome, firefox, ie 
 
 
-//<html   <head    <body  --> elements are available inside the body. title is part of head not body.
+//<html   <head    <body  --> web elements are available inside the body. title is part of head not body.
 

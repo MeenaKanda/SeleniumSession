@@ -37,7 +37,7 @@ public class GoogleSearchTest {
 	    	String text = e.getText();
 	    	System.out.println(text);
 	    	if(text.contains("naveen automationlabs telegram")) {   // or equal()
-	    		e.click();
+	     		e.click();
 	    		break;
 	    	}
 	    }*/

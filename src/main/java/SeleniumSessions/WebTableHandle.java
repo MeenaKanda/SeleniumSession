@@ -49,6 +49,8 @@ public class WebTableHandle {
 	
 	// this all methods are Application specific utility .not generic utility for all application .
 	
+	//Dynamic Xpath:::::::::::
+	
 	// //a[text()='Ali khan']/parent::td/preceding-sibling::td/input[@type='checkbox']
 	public static void selectUser(String userName) {  //dynamic xpath
 		driver.findElement(By.xpath("//a[text()='"+userName+"']/parent::td/preceding-sibling::td/input[@type='checkbox']")).click();

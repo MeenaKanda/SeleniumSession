@@ -25,6 +25,7 @@ public class TotalLinks {
 		// linksList-> dynamic array . it maintain the order with index no. .size() used
 		//why selenium return dynamic array not static array?-> no guarantee we always get same no of links all the time.
 		
+		//List => is Interface and order based collections
 		
 		
 		//print the total links count:

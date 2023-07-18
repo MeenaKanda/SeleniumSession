@@ -38,14 +38,14 @@ public class LocatorConcept {
 		
 		//2nd:
 //		WebElement emailId =  driver.findElement(By.id("input-email"));       //create webelement only, no action
-//		WebElement password =  driver.findElement(By.id("input-password"));
+//		WebElement password =  driver.findElement(By.id("input-password"));   // Webelement hit the server always.
 //		
 //		emailId.sendKeys("naveen@gmail.com");   //action
 //		password.sendKeys("naveen@123");
 		
 		
 		//3rd: By locator
-//		By emailId = By.id("input-email");     //they are By locator //By.id will not hit the server
+//		By emailId = By.id("input-email");     //they are By locator //By.id will not hit the server //By locator will not hit the server.
 //		By password = By.id("input-password");   //0 time hitting server
 //		
 //		WebElement eId = driver.findElement(emailId);   //fe -> always hit the server
@@ -91,4 +91,4 @@ public class LocatorConcept {
 	// doSendKeys method can be used only inside the class, other dev can not use from outside class. so create this method in utility class (ElementUtil) for everyone access.
 }
 
-
+//DOM => Document Object Model

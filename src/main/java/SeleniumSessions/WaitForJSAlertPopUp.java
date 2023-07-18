@@ -22,7 +22,7 @@ public class WaitForJSAlertPopUp {
 		 driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
 		
 /*		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		Alert alert = wait.until(ExpectedConditions.alertIsPresent());   //untill return Alert
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());   //untill return Alert //here selenium switch to alert internally
 		System.out.println(alert.getText());
 		alert.accept();
 		 //selenium switch to alert internally

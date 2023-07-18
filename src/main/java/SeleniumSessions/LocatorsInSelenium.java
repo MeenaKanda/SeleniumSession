@@ -98,8 +98,10 @@ public class LocatorsInSelenium {
 //		String header2 = driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > h2")).getText();
 //	    System.out.println(header2);  
 	
+		//getText work whenever element having text.
 		//getText use cases : links, headers, paragraph, footer (whenever there is a text getText() works)
 		//click: button, checkboxes, radiobutton, images,links, fileupload
+		//sendKeys use cases : textbox/textfield, dropdown, fileupload
 		
 		
 /*		By payment = By.linkText("Recurring payments");

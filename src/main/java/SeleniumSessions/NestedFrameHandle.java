@@ -34,7 +34,7 @@ public class NestedFrameHandle {
 		
 		driver.switchTo().parentFrame();  //f2
 		driver.switchTo().parentFrame();  //f3
-		//driver.switchTo().defaultContent();
+		//driver.switchTo().defaultContent();  //take to main page
 		driver.findElement(By.id("inp_val")).sendKeys("ABC--456");
 		
 		driver.switchTo().defaultContent();   //come back to main page
@@ -44,6 +44,8 @@ public class NestedFrameHandle {
 //		driver.switchTo().frame("pact1").switchTo().frame("pact2");
 //		driver.findElement(By.id("jex")).sendKeys("PQR");
 		
+		
+		//write statement in single line::::
 		driver.switchTo().frame("pact1").switchTo().frame("pact2").findElement(By.id("jex")).sendKeys("PQR");
 	
 		}
@@ -58,4 +60,5 @@ public class NestedFrameHandle {
 //jump f3 to f1 directly --> not possible 
 
 //can not enter value directly into f3 without coming into f1 and f2. first come to f1 then f2 then f3 then enter value
+//can not switch to frame2 directly from main page. we have main page -> frame1-> frame2-> frame->3
 

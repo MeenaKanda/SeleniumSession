@@ -32,7 +32,7 @@ public class SelectTagDropDownHandle {
 		select.selectByValue("Belgium");  //value attribute
 		
 		// 3. selectByVisibleText
-		select.selectByVisibleText("India"); //text of the option
+		select.selectByVisibleText("India"); //text of the option  //if the value attribute (2nd option) not available, pick visiblet
 		*/
 		
 		By country = By.id("Form_getForm_Country");

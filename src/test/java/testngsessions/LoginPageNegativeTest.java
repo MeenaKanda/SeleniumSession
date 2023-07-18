@@ -36,7 +36,7 @@ public class LoginPageNegativeTest {
 	@DataProvider
 	public Object[][] getLoginNegativeDate() {
 		
-		return new Object[][] {  //4 rows and 2 columns
+		return new Object[][] {  //4 rows and 2 columns  //testNg understand only 2D Object Array only
 			
 			{"abcd123@gamil.com", "test134"},  //1st row given to loginTest() first then 2nd 3rd 4th row
 			{"1234367@gamil.com", "abcdse"},   //row 2
@@ -47,7 +47,7 @@ public class LoginPageNegativeTest {
 	
 	
 
-	@Test(dataProvider = "getLoginNegativeDate")
+	@Test(dataProvider = "getLoginNegativeDate", priority = 1, expectedExceptions = ArithmeticException.class)
 	public void loginTest(String userName, String password) {    //source for loginTest() is data provider //login running 4 time for row 1 2 3 4
 	                                                        // this concepts also called parameterization of test cases.
 		boolean flag = doLogin(userName, password);
@@ -78,7 +78,9 @@ public class LoginPageNegativeTest {
 // in data provider we have to maintain date in the form of rows and columns.so we have to use 2 dimentional array
 //if we use only username 1 dimentional array we use. here we use username and passwore so use 2D array.
 
-//data is given by data provider(driving the data from data provider), this approach/concepts is called data driven approach.
+//data is given by data provider(deriving the data from data provider), this approach/concepts is called data driven approach.
 //in frame work we driving data from XL file using apochi poi api
 
 //why parameterization is important ? to minimize unnecessary test case creation by creating row and columns
+
+//we use Assert from testNg library.

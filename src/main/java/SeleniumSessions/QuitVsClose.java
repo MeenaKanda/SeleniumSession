@@ -32,8 +32,10 @@ public class QuitVsClose {
 		//try to get title after quit
 	//	System.out.println(driver.getTitle());  //org.openqa.selenium.NoSuchSessionException  //sid = null
 		//NoSuchSessionException : Session ID is null. Using WebDriver after calling quit()?
+		//server is there but SID is null.
 		
-		driver = new ChromeDriver();   //new sid = 456 will be created
+		
+		driver = new ChromeDriver();   //new sid = 456 will be created  //initialize chrome driver once again
 		driver.get("https://www.google.com");   //456
 		System.out.println(driver.getTitle());  //456
 		*/
@@ -63,6 +65,8 @@ public class QuitVsClose {
 
 //after quit() browser the sid = null . there is no browser after quit(). so we have to initialize the driver once again
 //(WebDriver driver = new ChromeDriver();). then new sid created.
+
+//everytime when we create driver = new ChromDriver(); new session id will be created where we close or quit.
 
 
 

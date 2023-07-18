@@ -12,8 +12,10 @@ public class WaitForTitleUrl {
 
 	static WebDriver driver;
 	public static void main(String[] args) {
-	
-
+		
+		//sometime when launch the application =>page is loading and title is not immediately available on that page. in that case case we use implicit wait. explicit wait don't work.
+	    
+      
 		driver = new ChromeDriver();
 	
 	    driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
@@ -67,7 +69,7 @@ public class WaitForTitleUrl {
 	
 	public static String waitForURLContainsAndFetch(int timeOut, String urlFractionValue) {
 		  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
-		    wait.until(ExpectedConditions.urlContains(urlFractionValue));   //supply part of url
+		    wait.until(ExpectedConditions.urlContains(urlFractionValue)); //supply part of url
 		    return driver.getTitle();
 	}
 	

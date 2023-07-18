@@ -37,11 +37,11 @@ public class GetElementsFromPageSection {
 	
 	}
 	
-	//Selenium have no method available which give List of String(List<String>). it always give List<WebElement> with the help of driver.findElement
+	//Selenium have no method available which give List of String(List<String>). it always give List<WebElement> with the help of driver.findElements
     //that why we have create list of sting and store string value in to the ArrayList.
 	public static List<String> getElementsTextList(By locator) {
 		
-		List<String> eleTextList = new ArrayList<String>();
+		List<String> eleTextList = new ArrayList<String>();  //initially size=0
 		List<WebElement> eleList = getElements(locator);
 		for(WebElement e : eleList) {
 			String text = e.getText();

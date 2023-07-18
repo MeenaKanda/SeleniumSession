@@ -48,7 +48,7 @@ public class CustomXpathConcept {
 		//input[@type='text or @type='email']
 		
 		//some element have no attributes . only text available. in that case
-		//xpath with text():  text()-> is a function
+		//xpath with text():  text()-> is a function in xpath
 		//text is not an attribute,its the text content of the element.
 		//don't use @text.... we use text() function 
 		//tag[text()='value']
@@ -58,7 +58,7 @@ public class CustomXpathConcept {
 		////h1[text()='Love your software']
 		
 //		By newCus = By.xpath("//h2[text()='New Customer']");
-		
+		//text() function we can use for link also.
 		//check My Account links is present on the page -- two times
 		By myAcc = By.xpath("//a[text()='My Account']");
 		int myAccount = driver.findElements(myAcc).size();
@@ -108,6 +108,7 @@ public class CustomXpathConcept {
 //		<input id=firstname_456>
 //		<input id=firstname_789>
 	    //here everytime id attribute number only changing.so we can't write locator without contains().
+		//use case of contains() => in this case we have to use contains().
 		
 		//By.id("firstname_123"); // not the right xpath
 		//input[contains(@id,'firstname_')]  -- this is right xpath with contains()
