@@ -30,13 +30,3 @@ public class SliderAction {
 
 }
 
-//ele.click() -> whenever you perform click action , it always click middle of the element.
-//width and height of an element calculated by pixel
-
-//before 3.4x -> selenium click corner of an element(0,0 position)
-//after 3.4x -> click middle of an element(element start 0 to 100 --> middle is 50(where it click)
-//middle is    -50  0  +50
-
-
-//Scrolling -> both horizontal and vertical scrolling is not an webelement.
-//so this one don't work for scrolling ,only work for slider(which is webelement).

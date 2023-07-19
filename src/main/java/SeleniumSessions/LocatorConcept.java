@@ -6,19 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocatorConcept {
-	
-	//HTML -> HyperText Markup Language
-//	WebElement->
-	//1st browser - 2nd enter url - page will remain same for all browser.on the particualr page
-	//WebElements in selenium(elements) - images, logo, text field, button,link, search field,menu links , icon,side links, footer links
-	//in other tool it is call web objects.
-	
-	//By -> is a Abstract class which heip in locating element within the DOM //id -> is a locater pick it from the page.
-	//DOM(document object model) - html page of entire page , have all each element of particular page in the form of html
-	//<input , <img, <a -> is html tag
-	//attributes(property) -> available in the form of key and value format // each attri have its own name and value
-    //findElement() -> always return WebElement.store in webelement vari
-	//WebElement -> Interface(I always non primitive type - String, class, Arrays, I) 
+
 	
 	static WebDriver driver;    //if it is non static we have to create obj to call. so make it static
 	
@@ -88,7 +76,7 @@ public class LocatorConcept {
 		getElement(locator).sendKeys(value);
 	}
 	
-	// doSendKeys method can be used only inside the class, other dev can not use from outside class. so create this method in utility class (ElementUtil) for everyone access.
+	
 }
 
-//DOM => Document Object Model
+

@@ -32,20 +32,7 @@ public class NewWindowHandle {
 		driver.quit();
 		
 		
-		//random pop up: can not be handled
-		//some times you go to login page registration page suddenly one pop up coming we have to click on cross button to close it .
-		// it kind of disturbing out work. it come randomly we have no idea where it is coming . this is called random pop up.
-		//can we handle random pop up?  can not be handle. no tool in the market can not be handle.
-		// better solution ,in QA/Stage/Test environment ---we block these pop up.because it is not part of functionality.it is from production.it is just advertisement point of you.
-		// better disable those pop up in QA environment.
-		//random pop up come any time
-		// but advertisement pop up come when you launch the application and can be handle those like browser window handle
-	    //advertisement pop up--> advertisement coming in the form of pop up.
-	
-	    // can window have alerts and browser window pop up together?
-		// No.it is not possible . at a time only one can have. 
-		//Ex: if window have alert it freeze the page. 
-	
+		
 	}
 
 	

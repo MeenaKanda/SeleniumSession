@@ -11,11 +11,6 @@ public class HeadLessBrowser {
 	// faster than normal  browser mode
 	//execution happening behind the scence . so it will not disturb our work.
 	
-	//sanity test cases we use it work
-	//if there are so many navigation headless mode might not work.
-    // for the complex html dom - it might not work
-	//dont prefer. it is not at all user requirement.
-	//headless just to minimize the time to closing
 	
 	public static void main(String[] args) {
 
@@ -31,16 +26,8 @@ public class HeadLessBrowser {
         System.out.println(driver.getCurrentUrl());
         
         driver.quit();
-        
-       
-	
 	
 	}
 
 }
 
-//co.setHeadless -> returns boolean
-//ChromeOptions -> is a class from selenium
-
-//incognite -> whatever you navigating it will not maintain history.
-//it can be used by user where it dont maintain history.

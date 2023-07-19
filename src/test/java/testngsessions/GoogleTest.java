@@ -35,8 +35,6 @@ public class GoogleTest extends BaseTest {
 	
 	}
 	
-	
-	
 /*	@AfterTest
 	public void tearDown() {
 		driver.quit();

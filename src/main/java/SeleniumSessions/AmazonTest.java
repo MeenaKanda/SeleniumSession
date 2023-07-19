@@ -38,15 +38,6 @@ public class AmazonTest {
 
 }
 
-//ad
-// all the utilities in BrowserUtility  we can use any page and in any applications , they don't need to initialize driver again and again.
-//and it is not specific to any application (it is generic). it is re usability of code.
-//same way we can create utility for sendkey(),elements() also.
-//we are not writing 1000 lines of code in main method because of this approach.
-//you don't see any Selenium code or method here
-
-//later on in real time project main method replaced by TestNG.
-
 
 
 

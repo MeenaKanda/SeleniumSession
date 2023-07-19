@@ -36,8 +36,6 @@ public class ElementIsDisplayed {
 			doSendKeys(search, "Macbook");
 			doClick(searchIcon);
 		}
-		
-		
 	
 	}
 
@@ -59,5 +57,3 @@ public class ElementIsDisplayed {
 	}
 }
 
-
-//from the image we can't capture the text.

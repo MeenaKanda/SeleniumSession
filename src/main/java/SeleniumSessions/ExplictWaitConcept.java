@@ -66,27 +66,6 @@ public class ExplictWaitConcept {
 		return driver.findElement(locator);
 	}
 	
-	
-	
-	
 }
 
-//WEbDriverWait --> is a class and have 3 constructor
-//Duration --> is a class. timeout with the help of Duration class
-//untill method coming from fluent class
-//until()-> coming from wait I and overridden by fluent class and inherited in Webdriverwait class
-
-
-//presenceOfElementLocated ---> An expectation for checking that an element is present on the DOM of a page. This does not necessarily mean that the element is visible.
-//so it will not give 100% accurate correct result.
-
-//visiblilityOfElementLocate--> An expectation for checking that an element is present on the DOM of a page and visible.Visibility means that the element is not only displayed but also has
-//a height and width that is greater than 0.
-
-//presenceOfElementLocated check element inside dom only
-//visibilityOfElementLocated check element inside dom and also page. 
-
-//from both we prefer visibility of element
-
-//difference b/w presenceOfElementLocated and VisibilityOfElementLocated
 

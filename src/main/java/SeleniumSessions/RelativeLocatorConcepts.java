@@ -59,7 +59,3 @@ public class RelativeLocatorConcepts {
 
 }
 
-// with() -> with() method coming from the class RelativeLocator class. RelativeLocator coming from selenium.
-//with() -> static method.
-
-//gettext() -> if you apply method gettext() for parent also will get text from child too.

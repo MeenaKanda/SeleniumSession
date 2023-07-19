@@ -31,9 +31,3 @@ public class PriorityTest {
 
 }
 
-// by default execution order is alphabetical order
-//if priority add to all test cases , priority will be in numerical order from -ve to 0 to +ve.
-// if all test cases having priority and multiple test cases having same priority number. in that case
-//same priority  with alphabetical order test cases executed.
-//only some test cases having priority and some with non- priority  --> non-priority test cases with alphabetical order
-//execute first and priority test case with priority order execute second.

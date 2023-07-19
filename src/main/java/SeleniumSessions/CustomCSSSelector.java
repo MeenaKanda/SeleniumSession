@@ -218,10 +218,3 @@ public class CustomCSSSelector {
 
 }
 
-
-//
-// if class having n no of classes, we can use 1 or more than 1 classes in any order/sequence with tag or without tag
-
-//tag#id#id  --> not possible id always only one .class can have multiple classes.
-
-// in which cases we  use starts-with , when we have dynamic attribute(class,id).ex: id=meena_123 , meena_234, meena_345

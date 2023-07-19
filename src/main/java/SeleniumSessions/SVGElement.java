@@ -50,12 +50,3 @@ public class SVGElement {
 	}
 
 }
-
-//SVG--> normal xpath will not support
-// for svg element we have to use local-name() for parent and after that use name() only in xpath
-
-//how to find tottal no of svg elements on the page?
-//ans: //*[local-name()='svg']   --> local name only for svg not for other element
-
-
-//  //a[normalize-space='login']  --> normalize space trim the space in html("  login  " ) and take normal word("login")

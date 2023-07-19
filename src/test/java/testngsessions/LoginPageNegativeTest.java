@@ -72,15 +72,3 @@ public class LoginPageNegativeTest {
 	}
 }
 
-//data provider -> supply the date to test case
-
-//BeforTest and AfterTest have a predefined execution order. so we can writer anywhere,
-// in data provider we have to maintain date in the form of rows and columns.so we have to use 2 dimentional array
-//if we use only username 1 dimentional array we use. here we use username and passwore so use 2D array.
-
-//data is given by data provider(deriving the data from data provider), this approach/concepts is called data driven approach.
-//in frame work we driving data from XL file using apochi poi api
-
-//why parameterization is important ? to minimize unnecessary test case creation by creating row and columns
-
-//we use Assert from testNg library.

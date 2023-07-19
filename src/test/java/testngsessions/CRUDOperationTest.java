@@ -66,11 +66,3 @@ public class CRUDOperationTest {
 	}
 
 }
-
-// this method having no dependency at all. so parallel execution is possible .In parallel execution  thread t1 t2 t3 t4 can 
-//access any test cases  in any sequence because there is no dependency between test cases.
-
-
-
-//test cases are always independent in automation.
-//don't create dependencies between two test cases. if one test case got failed other test case also will be failed.

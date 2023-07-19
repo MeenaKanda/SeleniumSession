@@ -11,11 +11,6 @@ import org.openqa.selenium.interactions.Actions;
 
 public class RightClickHandle {
 	
-	//Right click also called Context Menu/context click
-	//for right click we have to do double tap
-	//when we right click on right click me what kind of menu come? they are called context menu(application specific)
-	//when we right click on the page some option come which are browser specific not application specific
-
 	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
@@ -51,4 +46,3 @@ public class RightClickHandle {
 
 }
 
-//ContextClick()--> Performs a context-click at middle of the given element. First performs a mouseMoveto the location of the element.

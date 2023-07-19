@@ -54,4 +54,3 @@ public class SelectDropDownWithXpath {
 }
 
 
-//in this drop down <select property have no argument with value so start from sibling <label and reach the select tag.

@@ -39,9 +39,5 @@ public class WebDriverWaitWithFluentFeatures {
 	}
 
 	
-	//pollingEvery , ignoring, withMessage --> all coming from fluentWait. 
-	//WebDriverWait using all FluentFeatures
-	//polling time everything same in WebDriverWait and FluentWait both.
 	
-	//whatever achieve with FluentWait ,can be achieved with WebDriverWait also. no difference
 }

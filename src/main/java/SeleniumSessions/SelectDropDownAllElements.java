@@ -100,14 +100,6 @@ public class SelectDropDownAllElements {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
 //	public static int getTotalDropDownOptions(By locator) {
 //		Select select = new Select(getElement(locator));
 //		List<WebElement> optionsList = select.getOptions();
@@ -118,5 +110,4 @@ public class SelectDropDownAllElements {
 	
 }
 
-//select.getOptions();=>  it give all options(which is available in dropdown) belonging to this select tag
-//getOption() -> used in Selection class.
+.

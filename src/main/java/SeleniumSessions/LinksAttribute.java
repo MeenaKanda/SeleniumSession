@@ -33,11 +33,7 @@ public class LinksAttribute {
 			count++;
 		}*/
 		
-		//hrefval -> if we copy and past the link in website it take you to the site.
-		//it is called web scraping_> means we are scraping a date from amazon application
-        //as a tester we validate. but real time scraping developer scrap the date from selenium tool and give the particular data
-		// to the machine learning team(ML). here they fetch price from one site amazon and compare price with other shop walmart.
-	
+		
 	   
 /*		List<WebElement> imagesList = getElements(images);
 		System.out.println("total images : " + imagesList.size());
@@ -67,7 +63,3 @@ public class LinksAttribute {
 }
 
 
-//href -> if we click the link on website it will take you to the link site
-
-
-//img -> don't have text

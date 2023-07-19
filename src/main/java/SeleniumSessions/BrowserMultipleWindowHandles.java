@@ -51,5 +51,3 @@ public class BrowserMultipleWindowHandles {
 }
 
 
-// sometime when you open the url , some advertisement pop up come in new tab . we can handle those
-// advertisement pop up as same as window handles.

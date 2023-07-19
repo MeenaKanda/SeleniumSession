@@ -19,11 +19,7 @@ public class BrowserWindowHandleConcept {
         driver.findElement(By.xpath("//a[contains(@href,'twitter')]")).click();
         
         // 1. get the window ids:
-       Set<String> handles =  driver.getWindowHandles();  // it store window id of parent and child in  set. id in the form of string.
-       //set is not index based so we can not fetch using index no. so we have to apply iterator
-       //iterator()-> iterator generally used for collection those does not maintain order.
-       //iterator can be used for index based also. generally used for non-index based collection
-       
+       Set<String> handles =  driver.getWindowHandles();  
        Iterator<String> it =handles.iterator();
        //it will pointing just above the memory location of set object(handles). set don't have index so we move locator to  next
   
@@ -53,25 +49,3 @@ public class BrowserWindowHandleConcept {
 
 }
 
-// 1. which attribute is responsible for link open in a new tab/ new browser window/ new browser pop up?
-// ans: target="_blank" is responsible.
-// this new open tab have its own url,title
-//as a qa guys, we are not responsible for new open tab.just check the url, title correct or not.
-
-
-// driver.getWindowHandles(); -> this give unique windowId and return Set<String>
-
-//Set:
-// 1. set does not maintain order.
-// 2. can not have duplicate value
-// 3. no index .
-
-
-// why  parent windowId always store in first place and child window id store next in the order of click.
-// driver always launch first in parent window and traversing to child. driver.getWindowHandles() take care of it.
-// that's why when use driver.next() first time always get parent id 
-
-//driver.close() -> it will close current window only
-// driver.quit(); -> it will close all open child and parent windows.
-
-//defaultcontent -> works on the frame(multiple frame) which is on the same page.

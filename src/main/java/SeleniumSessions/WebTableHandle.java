@@ -24,8 +24,7 @@ public class WebTableHandle {
         //frame is available inside html dom.
         driver.switchTo().frame("mainpanel");
         driver.findElement(By.linkText("CONTACTS")).click();
-	    //inside DOM is "Contacts and on the page is"CONTACTS". which on pick?
-        //always consider visible on the page one not dom. because selenium interact whatever visible on the page.
+	    
 	
         Thread.sleep(4000);
         
@@ -42,12 +41,9 @@ public class WebTableHandle {
 
 	    cName = getUserCompanyName("Romi singh");
 	    System.out.println(cName);
-	    
-	    
 	
 	}
 	
-	// this all methods are Application specific utility .not generic utility for all application .
 	
 	//Dynamic Xpath:::::::::::
 	
@@ -66,4 +62,4 @@ public class WebTableHandle {
 
 }
 
-// HW: create utility for moblie no, home no, phone no, emailid also.
+

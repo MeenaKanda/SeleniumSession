@@ -20,11 +20,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ElementUtil {
 
-	private WebDriver driver; // if you make it public anyone can create obj of ElementUtil class ,start using
-								// this driver which is null
-	// if they perform any action on driver they get nullpointerException. so we
-	// make it private
-
+	private WebDriver driver;
+	
 	public ElementUtil(WebDriver driver) {
 		this.driver = driver;
 	}

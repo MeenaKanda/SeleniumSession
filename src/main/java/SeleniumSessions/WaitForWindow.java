@@ -55,9 +55,3 @@ public class WaitForWindow {
 	}
 
 }
-
-//some time when we click on the link new window/tab will be open. we have to use driver.getWindowHandles method.
-//sometimes new window take some time to be loaded.selenium try to go to the window immediately but window not loaded/available immediately
-//this time it throw nowindowpresent exception.
-
- 

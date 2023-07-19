@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class pesuedoElementConcepts {
 	
 	//  ::before or ::after -> it is called pesudo class  -> we can't do copy xpath/css for :: before ::after
-//we have to create java script to fetch the value of ::before
+    //we have to create java script to fetch the value of ::before
 	//browser understand only java script
 	//selenium can not interact with pesudo class.
 	// we are going to execute java script using  selenium java code

@@ -8,9 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CustomXpathConcept {
-	
-	//and-> give me one element that should have both property
-	//or-> give me element which have either of one propery/attr-value or both
 
 	public static void main(String[] args) {
 		
@@ -237,27 +234,3 @@ public class CustomXpathConcept {
 
 }
 
-//in selenium we can't combine 2 tags together.
-
-//HW :: //a find total links on the page
-//forgotten pasword
-//on the particular page give me all the links which contains amazon
-//EX: out of 300 links just give me those links which contains amazon
-
-
-
-//one parent element can have more child elements. they are called siblings.
-//following sibling(come after sibling)
-//preceding sibling(come before sibling)
-
-// /-> give you direct child element
-// //-> give both direct and indirect child elements if it is there.
-// if you only want direct element for safer side whenever you see direct element use /. because if you use // if any indirect element
-// with same tag name added in future it take that element too.
-
-
-//QS: how to do backward traversing in xpath? // 
-// ans: create xpath and use /../../.. till reach top of DOM
-// By.xpath("//input[@id='input-email']/../../../../../../../../../..");
-
-// instead of /../../.. -> use ancestor::tag to reach grand parent

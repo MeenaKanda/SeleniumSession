@@ -35,8 +35,6 @@ public class OpenCartTest extends BaseTest{
 	
 	}
 	
-	
-	
 /*	@AfterTest
 	public void tearDown() {
 		driver.quit();

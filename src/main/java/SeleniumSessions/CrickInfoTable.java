@@ -55,4 +55,3 @@ public class CrickInfoTable {
 }
 
 
-//xpath -> can backward / forward traversing

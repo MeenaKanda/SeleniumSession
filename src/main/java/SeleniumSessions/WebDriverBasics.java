@@ -15,9 +15,7 @@ public class WebDriverBasics {
 	public static void main(String[] args) {
 		
 		//1. open browser: chrome, ff
-//		ChromeDriver driver = new ChromeDriver();  //constructor of chromeDriver(defalul const created by selenium) will be called. 
-		//inside the const.. selenium guys write some code to launch the browser. so automatically it will open the chrome browser(automated browser).
-		//automated browser don't have history,bookmark nothing. but original browser have all .selenium open the replica of chrome browser with same chrome browser version.
+//		ChromeDriver driver = new ChromeDriver();  
 //		WebDriver driver = new ChromeDriver();
 //		WebDriver driver = new FireFoxDriver();
 		
@@ -48,11 +46,6 @@ public class WebDriverBasics {
 		}
 			
 		
-		
-		
-		
-		
-		
 		//2. enter url:
 //		driver.get("http://www.google.com");  //correct //http is a protocol
 //		driver.get("www.google.com");  //org.openqa.selenium.InvalidArgumentException
@@ -72,18 +65,12 @@ public class WebDriverBasics {
 			System.out.println("FAIL");
 		}
 		
-		
-		//Automation steps(1-3) + validation/assertions = Automation Testing
-		
+	
 		
 //		driver.close();
-		driver.quit();  //close the browser
-		
+		driver.quit();  
 		
 		
 	}
 
 }
-
-//We use assertion in testNg
-//Maven is for => build the automation.

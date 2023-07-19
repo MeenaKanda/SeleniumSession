@@ -19,12 +19,6 @@ public class InvalidLocator {
 		driver.findElement(By.xpath("//input[@id='namemeena']")).sendKeys("testing");   //NoSuchElementException
 		
 		
-		//NoAlertException : if alert is not there
-		//NoFrameException: when no frame available but you still try to jump/switch into that frame
-		//NoBrowserWindowException:
-		
-		
-		//WebDriverExceptin => is a parent of all selenium Exception
 	}
 
 }

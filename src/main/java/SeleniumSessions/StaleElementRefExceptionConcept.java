@@ -30,8 +30,3 @@ public class StaleElementRefExceptionConcept {
 
 }
 
-//after refresh the page dom loaded first the browser read the dom with the help of dom API. then page displayed 
-
-//click, back, forward, refresh  --> staleElementRefException come. because of those 4 update the dom/element
-//fluent element
-//

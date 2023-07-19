@@ -7,11 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserUtility {
 
-	 //utility class -> create a generic method so anyone can use that for their application.
-	//use those utility whenever needed. it work for any kind of applications.no need to write a code again and again unnecessarily.
-	//reusability 
-	
-	//don,t have main method(because others should use those methods from outside)
 	
 //	public WebDriver driver;    //default value of driver is null.because it is non-pri data type//any action on this give you nullponterException
 	//if it is public any one can able to access it from outside of class .so it give you nullpointeException . to avoid this make it private.
@@ -54,10 +49,6 @@ public class BrowserUtility {
 	return driver;
 	}
 	
-
-	
-	
-	
 	
 	//driver.get(url);using selenium method , by using  selenium method internally we creater our own custom method launchURL
 	// it give better functionality.
@@ -97,9 +88,9 @@ public class BrowserUtility {
 		}
 	}
 	
-	public void quitBrowser() {    //wrapper function  //user call the wrapper method which internally use selenium method
-		if(driver != null) {       //if driver == null , driver.quit(); give nullPointerException
-			driver.quit();      //internally using selenium mehtod
+	public void quitBrowser() {   
+		if(driver != null) {       
+			driver.quit();     
 		}
 	}
 	

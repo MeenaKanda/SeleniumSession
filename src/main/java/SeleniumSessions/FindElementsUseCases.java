@@ -22,8 +22,6 @@ public class FindElementsUseCases {
 			System.out.println("PASS");
 		}
 		
-		
-		
 
 	}
 

@@ -7,11 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-//find how many textfields in naveen?
-public class TotalImages {
-	
-	//Ctrl + shift + o -> to multiple import
 
+public class TotalImages {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
@@ -38,13 +35,5 @@ public class TotalImages {
 //2.if element not available on this page            NSE                           empty list -> size=0
 //3.action perform                                  yes action perform            no action perform
 
-
-
-//selenium is user action based automation tool that why it is w3c certified. selenium never interact with html DOM.only with screen
-//all selenium method interact from screen.
-//but cypress sometime internally use DOM apis.
-
-//can we fetch text from logo? no, selenium dont support , we should use external library ocr,optical,but no gurantee it give.
-//getText() for image don't fetch the text. just give blank space
 
 

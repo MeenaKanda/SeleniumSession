@@ -36,9 +36,6 @@ public class WebTablePaginationMultiSelection {
 		Thread.sleep(1000);
 		
 	}
-		
-		
-
 		}
 		
 		

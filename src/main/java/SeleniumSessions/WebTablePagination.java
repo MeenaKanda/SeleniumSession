@@ -57,7 +57,3 @@ public class WebTablePagination {
 	
 }
 
-
-//ElementClickInterceptedException  -- Canada
-
-//why it is not clicking united states

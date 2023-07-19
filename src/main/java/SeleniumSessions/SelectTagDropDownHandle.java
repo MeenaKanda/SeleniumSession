@@ -43,8 +43,6 @@ public class SelectTagDropDownHandle {
 		doSelectDropDownByVisibleText(country, "India");
 		
 		
-		
-		
 	}
 
 	
@@ -67,18 +65,6 @@ public class SelectTagDropDownHandle {
 		select.selectByVisibleText(text);
 	}
 }
-
-//1. selectByIndex : if 2 more country added in future the index no will be changed. so not preferred in that case.
-//we prefer for month dropdown,day dropdown where the data always constant.
-
-//// 2. selectByValue-> some times value attribute is not available in html. so we can't use in that case.
-
-// 3. selectByVisibleText -> but text is always available in html
-//pass the text from html and the respective value will be executed from dropdown page
-
-//we can use all the above methods only for dropdown which have <select> in html. for other dropdown we handle different way.
-//here value attribute and text are same. in some case both are not same.
-
 
 
 

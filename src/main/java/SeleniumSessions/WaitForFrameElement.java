@@ -60,4 +60,3 @@ public class WaitForFrameElement {
 }
 
 
-//hidden frame we can not switch

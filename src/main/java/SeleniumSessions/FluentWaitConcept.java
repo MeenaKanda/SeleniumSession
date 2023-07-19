@@ -72,15 +72,3 @@ public class FluentWaitConcept {
 }
 
 
-//selenium sending request to server and server immediately go and check the browser if element is present or not.
-//in 0 second element is not there on browser.when will be the next request/event send to browser? that time is polling time.
-//Ex: wait time is 10. polling is 2 secs. 0 sec -> 1st request ; 2 secs--> 2nd request; 4 secs-> 3rd request send .
-//every 2 seconds once the request will be sent if element not found or until element found. total 5 request will be sent in 10sec waiting.
-
-//if we don't give any polling time in selenium, default polling time is 500 milliseconds interval.
-
-//in cricket one ball takes around 3 seconds. so we set polling time 5 seconds . so it check the scoring 5 seconds once.
-//why checking every seconds unnecessarily here and there.
-
-//polling time / interval time
-

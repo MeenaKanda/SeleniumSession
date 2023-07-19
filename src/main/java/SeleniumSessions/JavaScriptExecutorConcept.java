@@ -9,11 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JavaScriptExecutorConcept {
 	
-	//selenium can not give every feature, so for certain thing we have to use javaScript.
-	//browser understand only java script. many java script selenium can not provide you. some feature we have to do by our own
-	//every tool can not give everything
-	//JavaScriptExecutor is an interface which will help you to execute the java script from our java code
-
+	
 	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
@@ -89,28 +85,4 @@ public class JavaScriptExecutorConcept {
 	}
 }
 
-
-// 1. what is the different way of getting title?
-
-//document..documentElement.InnerText  --> document means entire dom
-//from entire dom go each and every document element and capture the text of that(innerText)
-
-
-//use case of draw a border-> found a bug use border.
-
-//selenium doesn't provide highlighting feature, we have to use javascript for that.
-
-//flash -> can do during demo..highlight first and enter value
-
-//scrolling only for vertical.vertical scrolling not done by selenium so we need javs script executor
-//horizontal scrolling selenium will take care of it.
-//we can not do horizontal  and vertical scrolling together at a same time
-
-
-//selenium take screen shot but java script executor don't take screen shot
-
-//java script is common for all the browsers like chrome, firefox, ie 
-
-
-//<html   <head    <body  --> web elements are available inside the body. title is part of head not body.
 

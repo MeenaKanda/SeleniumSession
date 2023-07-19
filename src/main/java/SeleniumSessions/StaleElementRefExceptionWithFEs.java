@@ -46,12 +46,6 @@ public class StaleElementRefExceptionWithFEs {
 		
 	           }*/
 		
-		
-		//for each (WebElement) will not work for statleElementrefException. because webelement will not maintain internal index.
-		//staleelement always work for index based.
+	
 	}
 }
-//after click all new tab open on the same page so the page got refreshed. so staleException come.
-//if new tab open in different tab, the page don't get refreshed, have same webId/version. no staleException come
-
-//with the help of fluent wait also we can do that . teach later soon

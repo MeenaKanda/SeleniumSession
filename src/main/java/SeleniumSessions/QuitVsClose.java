@@ -55,21 +55,6 @@ public class QuitVsClose {
 
 
 
-//what do you mean by NosuchSessionException? what do you mean by session id is null? 
-//what will happen after quitting the browser , and using the driver once again what will happen?
-		
-//ans: you will not get title after quit the browser, you will get NoSuchSessionException.
-//when give driver.getTitle() to server once again after quit(sid = null). server will read the request and
-//server will immediately check what is the sesssion id which is null.then server will immediately send an exception
-//NoSuchSessionException.  in order to see  use debugging
-
-//after quit() browser the sid = null . there is no browser after quit(). so we have to initialize the driver once again
-//(WebDriver driver = new ChromeDriver();). then new sid created.
-
-//everytime when we create driver = new ChromDriver(); new session id will be created where we close or quit.
-
-
-
 
 
 

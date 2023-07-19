@@ -8,10 +8,6 @@ import org.openqa.selenium.interactions.Actions;
 
 public class BigBasketMultiLevelMenueHandling {
 
-	// if you see ng-mouseover in html it is called angular base application. entire
-	// application made with angular frame work.
-	// angular is a frame work which is used to develop the UI pages.angular can be
-	// automated with selenium
 	static WebDriver driver;
 
 	

@@ -7,9 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GetTextForTextField {
 	
-	//gettext() -> method works those element which have text already available inside the dom
-	//gettext method-> will not work for text field.it will not capture text of the text field entered.so in order to get value entered in text field
-	//we have to use getAttribute(value) method to get value entered in text field.
 
 	public static void main(String[] args) {
 		

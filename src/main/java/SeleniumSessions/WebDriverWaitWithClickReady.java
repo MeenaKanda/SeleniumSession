@@ -33,4 +33,3 @@ public class WebDriverWaitWithClickReady {
 
 }
 
-//elementToBeClickable --> An expectation for checking an element is visible and enabled such that you can click it

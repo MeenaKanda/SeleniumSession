@@ -36,9 +36,9 @@ WebDriver driver;
 	//Arrange test cases in proper sequence
 	//Act write your step properly
 	//Assert is mandatory to write
-	//1 testcase with 1 Assertion
+	//1 test case with 1 Assertion
 	
-	// 1 test case with 1 Assert is best practice and it is a rule
+	
 	
 	@Test(priority = 1)  // whatever priority is given on the basis of priority test cases will be executed (from 0 
 	public void titleTest() {
@@ -70,30 +70,3 @@ WebDriver driver;
 }
 
 
-//What is AAA unit testing?
-//AAA stands for: Arrange, Act, Assert. This is a commonly taught structure for unit tests. 
-//This structure guides us in how to "arrange" our tests, and is generally considered to produce tests that are easier to maintain.
-
-
-
-//@BeforeTest approach--> 
-//here we are opening browser only one time 
-//Ex : running 100 test cases. when running from 1 to 100 testcases, broweser got crashed on 10th test cases from 11 to 100 who will run the test cases?
-//if any issue happen in between all the remaining will not be executed because of browser not available. only 10% test cases covered(1-10) and 90% test cases not executed(11-100).
-//less test coverage.
-//1.BeforeTest approach when application stable
-//2.less test cases (sanity test cases) and less navigation(going one page to another page and login and log out)
-
-// end user point of view BeforeTest is more realistic. so in frame work we follow beforeTest approach
-
-
-//@BeforeMethod --> 
-//here opening and closing browser for each test cases.
-//above same approach  1 to 100 testcases , if browser got crashed ,application got crashed, server isssue ,browser closed ,it will always open the browser and 
-//execute test cases and close the browser. execution coverage is more.
-//even it take 10 15 mins extra it give better result
-//1. BeforeTest approach when more test cases
-//2. regression test cases
-//3.
-
-//

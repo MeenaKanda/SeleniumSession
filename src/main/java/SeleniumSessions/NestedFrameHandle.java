@@ -38,7 +38,7 @@ public class NestedFrameHandle {
 		driver.findElement(By.id("inp_val")).sendKeys("ABC--456");
 		
 		driver.switchTo().defaultContent();   //come back to main page
-		//Selects either the first frame on the page, or the main document when a page containsiframes. 
+		//Selects either the first frame on the page, or the main document when a page contains iframes. 
 		*/
 //		
 //		driver.switchTo().frame("pact1").switchTo().frame("pact2");
@@ -51,14 +51,4 @@ public class NestedFrameHandle {
 		}
 }
 
-
-// in sales force application we have nested frame more.
-
-// f1 to f2  or  f2 to f3 directly -> possible
-//f1 to f3 directly ---> not possible
-//f3 to f2 or f2 to f1 directly -> possible using parentFrame()
-//jump f3 to f1 directly --> not possible 
-
-//can not enter value directly into f3 without coming into f1 and f2. first come to f1 then f2 then f3 then enter value
-//can not switch to frame2 directly from main page. we have main page -> frame1-> frame2-> frame->3
 

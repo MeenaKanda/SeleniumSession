@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ElementAttributeConcept {
 	
-	//getAttribute() -> get the value of given attribute. it return String 
-	
 
 	static WebDriver driver;
 	public static void main(String[] args) {
@@ -42,9 +40,6 @@ public class ElementAttributeConcept {
 		System.out.println(ph);
 		System.out.println(srcVal);
 		System.out.println(titleVal);
-		
-		
-	    
 	    
 	}
 	

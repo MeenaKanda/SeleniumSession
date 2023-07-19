@@ -61,6 +61,3 @@ public class StaticWebTableHandle {
 	
 	}
 }
-
-
-//when we calculate no of row we have to exclude the header row.so add -1 at the end.

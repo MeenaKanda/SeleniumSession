@@ -9,13 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GoogleSearchTest {
 
-	//sometime when we try to search in google . it gives you suggestion , and try to fetch complete list of all suggestions
-	//suggestions are coming from server or browser? //browser can not store this informations.in browser internally create one SQL Query
-	//select a star from suggestion table where key = naveen automation labs.one api will be called internally then it fetch the data from the server
-	//from the data base and data base to webserver and webserver to the browser and the suggestions will be displayed.google server is super fast so we
-	//get the result quickly.
-	//Thread.sleep(3000);  --> is important here. or it dont load
-
+	
 	static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -65,4 +59,4 @@ public class GoogleSearchTest {
 }
 
 
-//dyanamic xpath also there. see later.
+

@@ -90,7 +90,4 @@ public class WaitForTitleUrl {
 	
 }
 
-//titleContains() -> supply part of title and used when you have huge title
-
-//selenium don,t want to give autowait to all the element unnecessarily.
 
